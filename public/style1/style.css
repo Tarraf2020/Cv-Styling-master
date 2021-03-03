@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .content{
+    margin: 0 15%;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+  }
+  header > div{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 50%;
+      padding: 10px;
+  }
+  .content{
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  #about, #competencies, #experiences, #education, #hobbies{
+    width: 50%;
+    
+  }
+  .skills-primary {
+    margin-bottom: 15px ;
+  }
+  .skills-secondary::before {
+    content: "Other";
+  }
+  
+  .skill{
+    margin: 3px;
+    padding: 5px;
+    color: white;
+    width:100% ;
+    background-color: lightgray;
+  }
+  span{
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .skills-primary > [data-skill="5"] > span{
+    width: 50%;
+    background-color: rgb(255, 0, 0) ;
+  }
+  .skills-primary > [data-skill="3"] > span{
+    width: 30%;
+    background-color: red ;
+  }
+  .skills-primary > [data-skill="1"] > span{
+    width: 10%;
+    background-color: red ;
+  }
+
+  .skills-secondary > [data-skill="9"] > span{
+    width: 90%;
+    background-color: red ;
+  }
+  .skills-secondary > [data-skill="5"] > span{
+    width: 50%;
+    background-color: red ;
+  }
+  .skills-secondary > [data-skill="7"] > span{
+    width: 70%;
+    background-color: red ;
+  }
+  
+  .experience-type{
+    color: red;
+  }
+  .experience-type::after{
+    content: " @";
+    color: red;
+    font-weight: 300;
+  }
+  .experience-institution{
+    color: red;
+    font-weight: 300;
+  }
+  
+
+
+  h4{
+    margin-bottom: 0px;
+  }
+  .experience-details{
+    padding-left: 3%;
+  }
+  .experience-date-separator{
+    color: red;
+    font-weight: 900;
+  }
+  .experience-location,.day,.month,.year{
+    opacity: 0.4;
+  }
+  p{
+    margin-right: 5%;
+  }
+  h3::before{
+    content: " ";
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+  }
+  section#contact > h3{
+    display: none;
+  }
+  #contact{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 50%;
+    height: 22%;
+    
+    
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    
+    
+  }
+  .contact-type{
+    color: azure;
+    width: 30%;
+    background-color: rgb(255, 0, 0);
+  }
+  .contact-value{
+    width: 70%;
+    background-color: black;
+  }
+  a, .contact-value{
+    text-decoration: none;
+    color: red;
+  }
+  dl{
+    margin: 0px  ;
+
+  }
+  dt{
+    margin:  0px;
+    padding: 3px;
+  }
+  dd{
+    margin-left: 0;
+    padding: 3px;
+  }
+  
+  h3{
+    
+  }
+  
