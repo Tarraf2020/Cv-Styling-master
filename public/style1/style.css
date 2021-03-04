@@ -173,5 +173,48 @@ body{
     content: "on";
   }
     
+  @media only screen and (max-width: 650px){
+
+    .content{
+      display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    #about, #competencies, #experiences, #education, #hobbies{
+      width: 100%;
   }
- 
+
+  section#contact > h3{
+    display: flex;
+  }
+
+  #contact{
+    position: relative;
+    top: unset;
+    right: unset;
+    width: 100%;
+    
+    
+    
+  }
+  .contact-type{
+    color: azure;
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+  }
+  .contact-value{
+    
+    background-color: white;
+  }
+  .contact-value{
+    color: black;
+  }
+  dt{
+    margin:  0px;
+    padding: 3px;
+  }
+  dd{
+    margin-left: 0;
+    padding: 3px;
+  }
+}
